@@ -84,8 +84,8 @@ codehub: # 代码仓库
 
 valine:
   enable: true
-  app_id:  K1rbn2Oo0YMM04VuzdLS7Nzz-gzGzoHsz
-  app_key: AAsHbwVm8ofKFJ6ghGqqrXSU
+  app_id:  JUGJMk0HRqnksDAdy57b7Ktk-gzGzoHsz
+  app_key: jJnOosg7SxYehjFNvLSpwl0u
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   visitor: true
