@@ -1,14 +1,14 @@
 # Site settings
-title: oukohou
-subtitle: [ 璇珠杂俎]
-keywords: oukohou
+title: Blog
+subtitle: [ 雲木]
+keywords: Blog
 description: 我梦扬州，便想到扬州梦我。幸会。微信公众号：oukohou.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.oukohou.wang/" # 你的域名
-page_no_title: "oukohou's blog" # 文章无标题时默认显示内容
+url: "https://sanzhixiaozhu.top/" # 你的域名
+page_no_title: "Who's blog?" # 文章无标题时默认显示内容
 beian: # "备案号"
-author: oukohou
-email: oukohou@outlook.com
+author: 雲木
+email: don952509@foxmail.com
 
 # Build settings
 markdown: kramdown
