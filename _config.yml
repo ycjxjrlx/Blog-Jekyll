@@ -2,7 +2,7 @@
 title: Blog
 subtitle: [ 雲木]
 keywords: Blog
-description: 我梦扬州，便想到扬州梦我。幸会。微信公众号：oukohou.
+description: 苟日新，日日新，又日新。微信公众号：oukohou.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sanzhixiaozhu.top/" # 你的域名
 page_no_title: "Who's blog?" # 文章无标题时默认显示内容
@@ -35,7 +35,7 @@ paginate_path: "page/:num/"
 
 # Search settings
 baidu_search: true
-google_search: # true
+google_search: #true
 
 # Menu settings
 menu:
@@ -73,7 +73,7 @@ links: # 友情链接
 
 # Google Analytics
 ga_track_id: 'UA-130856615-1'            # Format: UA-xxxxxx-xx
-ga_domain: www.oukohou.wang              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: sanzhixiaozhu.top              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 # Code hub settings
