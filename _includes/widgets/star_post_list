@@ -1,18 +1,15 @@
 <div class="widget">
     <div class="widget-title"><i class="icon-star"> 推荐文章</i></div>
     <ul class="post-list">
-        <li class="post-list-item"><a class="post-list-link" href="https://www.oukohou.wang/2018/10/11/S3FD-Single-Shot-Scale-invariant-Face-Detector/">S3FD:Single Shot Scale-invariant Face Detector</a></li>
+        <li class="post-list-item"><a class="post-list-link" href="https://blog.konghy.cn/2015/05/06/process-blog-build/">博客搭建历程-旷世的忧伤-2015</a></li>
     </ul>
 
     <ul class="post-list">
-        <li class="post-list-item"><a class="post-list-link" href="https://www.oukohou.wang/2018/11/29/live2D_installation/">给自己的jekyll博客安装live2D看板娘</a></li>
+        <li class="post-list-item"><a class="post-list-link" href="https://www.oukohou.wang/2018/11/20/process_of_blog_setting-up/">博客搭建历程-璇珠杂俎-2018</a></li>
     </ul>
 
     <ul class="post-list">
-        <li class="post-list-item"><a class="post-list-link" href="https://www.oukohou.wang/2018/11/20/process_of_blog_setting-up/">博客搭建历程</a></li>
+        <li class="post-list-item"><a class="post-list-link" href="https://sanzhixiaozhu.top/%E6%97%A5%E5%BF%97/2018/08/28/Hello-world!.html">博客搭建历程-雲木-2021</a></li>
     </ul>
 
-    <ul class="post-list">
-        <li class="post-list-item"><a class="post-list-link" href="https://www.oukohou.wang/2018/12/06/autumn_poems/">寒事今牢落，人生亦有初</a></li>
-    </ul>
 </div>
