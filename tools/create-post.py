@@ -38,8 +38,9 @@ def create_post_file(name, title, target):
 if __name__ == "__main__":
     parser = ArgumentParser(prog="create-post",
                             description="Create an empty post for jekyll blog")
-    parser.add_argument("name", type=str, help="name of the post file")
-    parser.add_argument("title", type=str, help="title of the post")
+    #更改defult以添加name和title
+    parser.add_argument("--name", type=str, default="Instructions", help="name of the post file")
+    parser.add_argument("--title", type=str,default="博客搭建历程", help="title of the post")
     parser.add_argument("-t", "--target", type=str, default=".", help="save to target")
 
     opetions = parser.parse_args()
