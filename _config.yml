@@ -12,6 +12,7 @@ email: don952509@foxmail.com
 
 # Build settings
 markdown: kramdown
+encoding: utf-8
 plugins: [jekyll-paginate]
 #gem 'jekyll-paginate', group: :jekyll_plugins
 #permalink: /:year/:month/:day/:title/

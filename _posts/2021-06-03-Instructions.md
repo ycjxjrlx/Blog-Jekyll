@@ -1,8 +1,8 @@
-﻿---
+---
 layout: post
 title: 博客搭建历程
 keywords: 博客 GitHub Jekyll 
-category: 我的日志
+category: 日志
 tags: 博客 jekyll 
 ---
 
@@ -19,7 +19,7 @@ tags: 博客 jekyll
 
 ​	网上搭建个人网站的教程许多，大多教程要求准备**域名**与**主机**（服务器）。就我个人而言，域名在有搭建网页想法的时候就已早早申请，而主机迟迟没有下手的原因很简单，就是贵（个人而言）。好在也有不需要主机甚至不需要域名的网页搭建教程，这需要用到**github pages**。免费虽好，却多了限制，官方给出的说法是 **无法在Github页面上托管Django网站。Github页面用于静态站点，而Django需要Python动态生成页面** 。所以即使我已经成功运行并修改了[博客项目][1]，也只能放弃转而寻求支持生成静态博客的工具，之后我随机选择了**jekyll**，就此开始了此博客的搭建。
 
-​	PS.对Django博客项目感兴趣的朋友可以点击此处。
+​	PS.对Django博客项目感兴趣的朋友可以[点击此处][2]。
 
 ### 如何搭建？
 
@@ -31,4 +31,4 @@ tags: 博客 jekyll
 
 --------
 [1]: https://github.com/erenming/blog
-
+[2]: https://sanzhixiaozhu.top/博客/2021/06/06/Django.html

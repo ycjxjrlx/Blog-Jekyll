@@ -1,12 +1,4 @@
-#! /usr/bin/env python
 # -*- coding: utf-8 -*-
-
-# *************************************************************
-#     Filename @  create_post.py
-#       Author @  Huoty
-#  Create date @  2016-07-29 22:46:48
-#  Description @  Create an empty post for jekyll blog
-# *************************************************************
 
 import os
 import datetime
@@ -26,21 +18,21 @@ def create_post_file(name, title, target):
         f.write('layout: post\n')
         #f.write('thread: %s\n' % md5(path))
         f.write('title: "%s"\n' % title)
+        f.write('date: "%s"\n' % datetime.date.today())
         f.write('keywords:\n')
-        f.write('description:\n')
+        #f.write('description:\n')
         f.write('category:\n')
         f.write('tags:\n')
         f.write('---\n\n')
-
 
 # Script starts from here
 
 if __name__ == "__main__":
     parser = ArgumentParser(prog="create-post",
                             description="Create an empty post for jekyll blog")
-    #更改defult以添加name和title
-    parser.add_argument("--name", type=str, default="Instructions", help="name of the post file")
-    parser.add_argument("--title", type=str,default="博客搭建历程", help="title of the post")
+    #更改defult以添加name和title,创建的时候不要有中文，不然容易乱码
+    parser.add_argument("--name", type=str, default="Django", help="name of the post file")
+    parser.add_argument("--title", type=str, default="title", help="title of the post")
     parser.add_argument("-t", "--target", type=str, default=".", help="save to target")
 
     opetions = parser.parse_args()
