@@ -13,13 +13,13 @@ email: don952509@foxmail.com
 # Build settings
 markdown: kramdown
 encoding: utf-8
-plugins: [jekyll-paginate]
+#plugins: [jekyll-paginate]
 #gem 'jekyll-paginate', group: :jekyll_plugins
 #permalink: /:year/:month/:day/:title/
 #exclude: ["README.md", "changelog.md", "server", "tools", "Pipfile"]
-#plugins:
-  #- jekyll-paginate
-  #- jemoji
+plugins:
+  - jekyll-paginate
+  - jemoji
 
 
 # always get github's error email saying redcarpet is not supported,
