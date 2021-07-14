@@ -13,7 +13,7 @@ jQuery(document).ready(function ($) {
             "debug": false,
             "model": {"jsonPath": "/assets/live2dw/live2dw_shizuku/assets/shizuku.model.json"},
             "display": {"position": "right", "width": 90, "height": 150, "hOffset": 100, "vOffset": -10,},
-            "mobile": {"show": true, "scale": 0.8,},
+            "mobile": {"show": true, "scale": 0.5,},
             "log": false});
         }
         if (r==0) {
