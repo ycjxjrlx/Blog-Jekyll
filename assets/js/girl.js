@@ -37,7 +37,7 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
     if (isindex) { //如果是主页
         var now = (new Date()).getHours();
-        var visitor="这位客人";
+        var visitor="这位亲，";
         if (now > 0 && now <= 6) {
             showMessage(visitor + ' 你是夜猫子呀？还不睡觉，明天起的来么你？', 6000);
         } else if (now > 6 && now <= 11) {
@@ -126,7 +126,7 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
 
     window.setInterval(function () {
-        msgs = [ "陪我聊天吧！", "好无聊哦，你都不陪我玩！", "…@……!………", "(￢_￢)瞄", "(ﾉﾟ▽ﾟ)ﾉ","我可爱吧！嘻嘻!~^_^!~~","是谁?~送你来到我身边~~","从前有座山，山上有座庙，庙里有个老和尚给小和尚讲故事，讲：“从前有座……”"];
+        msgs = [ "陪我聊天吧！", "好无聊哦，你都不陪我玩！", "…@……!………", "我也会偷偷跑出去玩，嘘~","我不在不要打小报告！","(￢_￢)瞄", "(ﾉﾟ▽ﾟ)ﾉ","我可爱吧！~^_^!~","是谁?~送你来到我身边~~","从前有座山，山上有座庙，庙里有个老和尚给小和尚讲故事，讲：“从前有座……”","姐姐不用管手机，好羡慕","来换班啦","什么！你喜欢姐姐，我要告诉她","手机端看不到姐姐，啦啦啦啦","我也喜欢姐姐"];
         var i = Math.floor(Math.random() * msgs.length);
         showMessage(msgs[i], 8000);
     }, 15000);
@@ -202,11 +202,11 @@ jQuery(document).ready(function ($) {
         
             stat_click++;
             if (stat_click > 4) {
-                msgs = ["你有完没完呀？", "你已经摸我" + stat_click + "次了", "非礼呀！救命！OH，My ladygaga"];
+                msgs = ["你有完没完呀？", "你已经摸我" + stat_click + "次了", "非礼呀！救命！OH，My ladygaga","我记性可好了，没数错！"];
                 var i = Math.floor(Math.random() * msgs.length);
                 //showMessage(msgs[i]);
             } else {
-                msgs = ["筋斗云！~我飞！", "我跑呀跑呀跑！~~", "别摸我，会生气的！", "惹不起你，我还躲不起你么？", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！"];
+                msgs = ["如果有打扰到你阅读，多次刷新页面我可能就不在咯……","筋斗云！~我飞！", "我跑呀跑呀跑！~~", "别摸我，会生气的！","下次刷新页面我不出来了！哼！", "惹不起你，我还躲不起你么？", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！","我也会偷偷跑出去玩，嘘~","我不在不许打小报告！","姐姐不用管手机，好羡慕","来换班啦","什么！你喜欢姐姐，我要告诉她","手机端看不到姐姐，啦啦啦啦","我也喜欢姐姐"];
                 var i = Math.floor(Math.random() * msgs.length);
                 //showMessage(msgs[i]);
             }
