@@ -4,6 +4,7 @@ jQuery(document).ready(function ($) {
     function Random(){return new Date().getSeconds()%2}
     function showMe(r){
         var r;
+        alert(r);
         if (r==1){
             L2Dwidget.init({        
             "pluginRootPath": "live2dw_shizuku/",
@@ -18,7 +19,7 @@ jQuery(document).ready(function ($) {
         }
         if (r==0) {
             var obj=document.getElementById("abc")
-
+            obj.style.display=""
         }
     }
 });
