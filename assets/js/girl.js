@@ -69,7 +69,7 @@ jQuery(document).ready(function ($) {
         showMessage('萌萌地加载《<span style="color:#0099cc;">' + $(this).text() + '</span>》中，请稍候');
     });
     $('h2 a').mouseover(function () {
-        showMessage('要看看《<span style="color:#0099cc;">' + $(this).text() + '</span>》这篇随笔么？');
+        showMessage('要看看《<span style="color:#0099cc;">' + $(this).text() + '</span>》这篇博文么？');
     });
     $('#prev-page').mouseover(function(){
         showMessage('要翻到上一页吗?');
