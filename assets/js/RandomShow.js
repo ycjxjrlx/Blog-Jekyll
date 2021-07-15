@@ -13,12 +13,12 @@ jQuery(document).ready(function ($) {
             "debug": false,
             "model": {"jsonPath": "/assets/live2dw/live2dw_shizuku/assets/shizuku.model.json"},
             "display": {"position": "right", "width": 90, "height": 150, "hOffset": 100, "vOffset": -10,},
-            "mobile": {"show": true,"scale": (0.5,0.5),},
+            "mobile": {"show": true,"scaleX": 0.3,,"scaleY": 0.3,},
             "log": false});
         }
         if (r==0) {
             var obj=document.getElementById("abc")
-            obj.style.display=""
+
         }
     }
 });
