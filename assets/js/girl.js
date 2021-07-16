@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
         } else if (now > 6 && now <= 11) {
             showMessage(visitor + ' 早上好，早起的鸟儿有虫吃噢！早起的虫儿被鸟吃，你是鸟儿还是虫儿？嘻嘻！', 6000);
         } else if (now > 11 && now <= 14) {
-            showMessage(visitor + ' 中午了，吃饭了么？不要饿着了，饿死了谁来挺我呀！', 6000);
+            showMessage(visitor + ' 中午了，吃饭了么？不要饿着了，饿死了谁来陪我呀！', 6000);
         } else if (now > 14 && now <= 18) {
             showMessage(visitor + ' 中午的时光真难熬！还好有你在！', 6000);
         } else {
@@ -202,7 +202,7 @@ jQuery(document).ready(function ($) {
         
             stat_click++;
             if (stat_click > 6) {
-                msgs = ["你有完没完呀？", "你已经摸我" + stat_click + "次了", "非礼呀！救命！OH，My ladygaga","我记性可好了","姐姐！这里有坏蛋","不开心","要不要我替你催更呀","主人的新文章马上发布咯","你认识我姐姐吗","要不要我把姐姐介绍给你","你知道我姐姐是谁吗","主人才不会断更呢","姐姐有个小bug，没关系的"];
+                msgs = ["你有完没完呀？", "你已经摸我" + stat_click + "次了", "非礼呀！救命！OH，My ladygaga","我记性可好了","姐姐！这里有坏蛋","不开心","要不要我替你催更呀","主人的新文章马上发布咯","你认识我姐姐吗","要不要我把姐姐介绍给你","你知道我姐姐是谁吗","主人才不会断更呢","姐姐有个小bug，不要说出去哟"];
                 var i = Math.floor(Math.random() * msgs.length);
                 //showMessage(msgs[i]);
             } else {
