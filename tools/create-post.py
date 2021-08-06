@@ -31,7 +31,7 @@ if __name__ == "__main__":
     parser = ArgumentParser(prog="create-post",
                             description="Create an empty post for jekyll blog")
     #更改defult以添加name和title,创建的时候不要有中文，不然容易乱码
-    parser.add_argument("--name", type=str, default="2d", help="name of the post file")
+    parser.add_argument("--name", type=str, default="unity-time", help="name of the post file")
     parser.add_argument("--title", type=str, default="title", help="title of the post")
     parser.add_argument("-t", "--target", type=str, default=".", help="save to target")
 
