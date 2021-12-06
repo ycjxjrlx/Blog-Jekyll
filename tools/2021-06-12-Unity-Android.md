@@ -6,5 +6,5 @@ keywords: Unity Android
 category: Unity
 tags: Unity Android
 ---
-新坑，待填
+新坑，待填（计划写怎么实现按钮/触控，被耽搁了）
 https://segmentfault.com/a/1190000012362767
